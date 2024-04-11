@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+.contener{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(248, 248, 248);
+    height: 100vh;
+    width: auto;
+}
+
+.contain{
+    padding: 0.6rem;
+    background-color: rgb(204, 204, 204);
+    border-radius: 10px;
+}
+
+form div{
+    padding:4px;
+    font-size: 20px;
+}
+
+#display{
+    background-color: aliceblue;
+    border-radius: 4px;
+    height:50px;
+    width:195px;
+    border: none;
+}
+
+form div button{
+    font-size: 20px;
+    height: 45px;
+    width:45px;
+    border: none;
+    border-radius: 6px;
+}
+#submit{
+    background-color: rgb(221, 149, 14);
+}
