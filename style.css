@@ -27,10 +27,13 @@ form div{
 
 #display{
     background-color: aliceblue;
+    padding: 10px;
     border-radius: 4px;
     height:50px;
     width:195px;
     border: none;
+    text-align: right;
+    font-size: 35px;
 }
 
 form div button{
@@ -39,6 +42,7 @@ form div button{
     width:45px;
     border: none;
     border-radius: 6px;
+    box-shadow: 2px 4px rgba(0, 0, 0, 0.329);
 }
 #submit{
     background-color: rgb(221, 149, 14);

@@ -1,52 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>learing</title>
-  <link href="style.css" rel="stylesheet" type="text/css" />
-</head>
-
-<body>
-  <div class="contener">
-    <div class="contain">
-      <form>
-        <div><input type="text" id="display" /></div>
-        <div>
-          <button calss="key">AC</button>
-          <button calss="key">DEL</button>
-          <button calss="key">%</button>
-          <button calss="key">/</button>
-        </div>
-        <div>
-          <button calss="key">7</button>
-          <button calss="key">8</button>
-          <button calss="key">9</button>
-          <button calss="key">X</button>
-        </div>
-        <div>
-          <button calss="key">4</button>
-          <button calss="key">5</button>
-          <button calss="key">6</button>
-          <button calss="key">-</button>
-        </div>
-        <div>
-          <button calss="key">1</button>
-          <button calss="key">2</button>
-          <button calss="key">3</button>
-          <button calss="key">+</button>
-        </div>
-        <div>
-          <button calss="key">00</button>
-          <button calss="key">0</button>
-          <button calss="key">.</button>
-          <button calss="key" id="submit">=</button>
-        </div>
-      </form>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>learing</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div class="contener">
+      <div class="contain">
+        <form>
+          <div><input id="display" readonly></div>
+          <div>
+            <button class="key" onclick="performSomething">DEL</button>
+            <button class="key" id="clearScreen" onclick="clearScreen">AC</button>
+            <button class="key" onclick="performSomething">%</button>
+            <button class="key" onclick="performSomething">/</button>
+          </div>
+          <div>
+            <button class="key" onclick="performSomething('7')">7</button>
+            <button class="key" onclick="performSomething('8')">8</button>
+            <button class="key" onclick="performSomething('9')">9</button>
+            <button class="key" onclick="performSomething('*')">X</button>
+          </div>
+          <div>
+            <button class="key" onclick="performSomething('4')">4</button>
+            <button class="key" onclick="performSomething('5')">5</button>
+            <button class="key" onclick="performSomething('6')">6</button>
+            <button class="key" onclick="performSomething('-')">-</button>
+          </div>
+          <div>
+            <button class="key" onclick="performSomething('1')">1</button>
+            <button class="key" onclick="performSomething('2')">2</button>
+            <button class="key" onclick="performSomething('3')">3</button>
+            <button class="key" onclick="performSomething('+')">+</button>
+          </div>
+          <div>
+            <button class="key" onclick="performSomething('00')">00</button>
+            <button class="key" onclick="performSomething('0')">0</button>
+            <button class="key" onclick="performSomething('.')">.</button>
+            <button class="key" id="submit" >=</button>
+          </div>
+        </form>
+      </div>
     </div>
-  </div>
-  <script src="index.js"></script>
-</body>
-
+    <script src="next.js"></script>
+  </body>
 </html>
